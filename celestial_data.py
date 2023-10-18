@@ -2,8 +2,8 @@ celestial_data = {
     "Sun": {
         "Mass (kg)": 1.989e30,
         "Gravitational Parameter (km^3/s^2)": 1.3271244e8,
-        "Periapsis Radius (km)": 0.00001,
-        "Apoapsis Radius (km)": 0.00001,
+        "Periapsis Radius (km)": 10000.00001,
+        "Apoapsis Radius (km)": 10000.00001,
         "Argument of Periapsis (radians)": 0.0001,  # Converted to radians
     },
     "Mercury": {
@@ -55,11 +55,27 @@ celestial_data = {
         "Apoapsis Radius (km)": 3_004_419_704,
         "Argument of Periapsis (radians)": 1.6941,  # Converted to radians
     },
-    "Neptune": {
-        "Mass (kg)": 1.02413e26,
-        "Gravitational Parameter (km^3/s^2)": 6.836529e4,
-        "Periapsis Radius (km)": 4_453_947_328,
-        "Apoapsis Radius (km)": 4_553_946_490,
-        "Argument of Periapsis (radians)": 4.6281,  # Converted to radians
-    }
+    "PSYCHE": {
+        "Mass (kg)": 2.7133e18,
+        "Gravitational Parameter (km^3/s^2)": 1.204082269e4,
+        "Periapsis Radius (km)": 378_000_000,
+        "Apoapsis Radius (km)": 497_000_000,
+        "Argument of Periapsis (radians)": 2.7849,  # Converted to radians
+    },
+    "2P/Encke": {
+        "Mass (kg)": 0,  # The mass of comets is typically negligible compared to planets, so you can set it to None
+        "Gravitational Parameter (km^3/s^2)": 0,  # Similar to mass, the gravitational parameter is not applicable in the same way as for planets
+        "Periapsis Radius (km)": 50803436.9,  # Perihelion distance
+        "Apoapsis Radius (km)": 613052000,  # Aphelion distance
+        "Argument of Periapsis (radians)": 2.21,  # Converted to radians
+    },
+        "Transfer": {
+        "Mass (kg)": 2.7133e18,
+        "Gravitational Parameter (km^3/s^2)": 1.204082269e4,
+        "Periapsis Radius (km)": 0.1,
+        "Apoapsis Radius (km)": 0.1,
+        "Argument of Periapsis (radians)": 0,  # Converted to radians
+        "Created": False,
+    },
+
 }
